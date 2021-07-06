@@ -8,7 +8,7 @@ import numbers
 
 inputFile = r'C:\Users\eroun\Desktop\Klasifikasi\datapengpol.csv'
 df = pd.read_csv(inputFile, names=['inputs','predict'], header=0)
-
+##lalala
 factory = StemmerFactory()
 stemmer = factory.create_stemmer()
 tokenizer = nltk.RegexpTokenizer(r'\w+')
